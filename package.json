@@ -1,0 +1,15 @@
+{
+  "name": "connection_speed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cs_report_gen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "json2csv": "^4.3.1"
+  }
+}
