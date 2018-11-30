@@ -1,9 +1,9 @@
 # Downloaders-Analysis
 
-Subjects of analysis:<br />
+Subjects of analysis:
 **CURL** (https://github.com/curl/curl)<br />
 Description: A command line tool and library for transferring data with URL syntax.<br /><br />
-**WGET** (https://github.com/mirror/wget)<br /><br />
+**WGET** (https://github.com/mirror/wget)<br />
 Description: GNU project utility for retrieving files using HTTP, HTTPS, FTP and FTPS protocols.<br /><br />
 **ARIA 2** (https://github.com/aria2/aria2)<br />
 Description: aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line.<br /><br />
