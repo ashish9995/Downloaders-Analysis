@@ -1,0 +1,26 @@
+DECLARE @tagname varchar(20)
+SET @tagname = 'curl'
+
+select TagName, avg(cast(ResponseTime as bigint)) as Average
+from 
+  (SELECT
+         Questions.CreationDate, 
+         Questions.Title, 
+         Tags.TagName,
+         Answers.CreationDate as ResponseDate,
+         datediff(minute, Questions.CreationDate, 
+                          Answers.CreationDate) as ResponseTime,
+         cast(DATEPART(hour, Questions.CreationDate) as int) as ResponseHour
+    FROM Posts Questions
+    join Posts Answers on Answers.id = Questions.AcceptedAnswerId
+                         and datediff(hour, Questions.CreationDate, Answers.CreationDate) < 5
+    join PostTags ON PostTags.PostId = Questions.Id
+    join Tags on Tags.Id = PostTags.TagId
+    WHERE Questions.CreationDate > convert(datetime, '01/01/2008', 101)  
+    and TagName = 'curl' OR TagName = 'wget' OR TagName = 'aria2'
+) as Responses
+group by TagName
+order by TagName
+
+
+Data explorer link: https://data.stackexchange.com/stackoverflow/query/908506

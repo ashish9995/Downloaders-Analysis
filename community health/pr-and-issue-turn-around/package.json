@@ -1,0 +1,16 @@
+{
+  "name": "github_turn_arround",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/github.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shantanu Bhoyar",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^16.0.1",
+    "http-server": "^0.11.1",
+    "promptly": "^3.0.3"
+  }
+}
