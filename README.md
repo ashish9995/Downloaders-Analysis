@@ -9,7 +9,7 @@ Feature Set
 https://docs.google.com/spreadsheets/d/14_lLdGgBfABBysV3Jd2joTX_IT4s9J_sZADhYZml2UE/edit#gid=0
 
 Static analysis:
-
+For static analysis software tools like coverity and sonarQube used and results have been uploaded.
 To verify our gitrob results follow documentation here: 
 https://github.com/michenriksen/gitrob
 
