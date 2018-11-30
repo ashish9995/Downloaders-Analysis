@@ -1,6 +1,6 @@
 # Downloaders-Analysis
 
-Subjects of analysis:
+Subjects of analysis:<br/>
 **CURL** (https://github.com/curl/curl)<br />
 Description: A command line tool and library for transferring data with URL syntax.<br /><br />
 **WGET** (https://github.com/mirror/wget)<br />
