@@ -1,9 +1,19 @@
 # Downloaders-Analysis
-Analysis of downloading tools which includes curl, wget and aria2 based upon the speed at which the tools download from a common site.
+
+Subjects of analysis:
+CURL (https://github.com/curl/curl)
+Description: A command line tool and library for transferring data with URL syntax.
+WGET (https://github.com/mirror/wget)
+Description: GNU project utility for retrieving files using HTTP, HTTPS, FTP and FTPS protocols.
+ARIA 2 (https://github.com/aria2/aria2)
+Description: aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line.
+
+Purpose: Curl, wget and aria2 are tools to download files and exchange data from/to a server. These tools support command line operations with various options (eg recursive download). They each support multiple platforms like Linux, Windows, macOS etc., and protocols like FTP, HTTP, HTTPS.
+
 Folder organization: Top level folders are as per the high-level metrics. Source codes are in respective folders with their results.
 
 Performance:
-To verify our performance results, run bitrate module using Node to get the bitrate. Run bash script in "average-response time" to get the average time. The results are in "performance -> results" for cross checking.
+To verify the performance results, run bitrate module using Node to get the bitrate. Run bash script in "average-response time" to get the average time. The results are in "performance -> results" for cross checking.
 
 Feature Set
 https://docs.google.com/spreadsheets/d/14_lLdGgBfABBysV3Jd2joTX_IT4s9J_sZADhYZml2UE/edit#gid=0
